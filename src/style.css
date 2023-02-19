@@ -1,0 +1,146 @@
+/* timer, change color */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+html{
+    font-family: 'Nunito Sans', sans-serif;
+}
+ul{
+    list-style: none;
+}
+.FloorPlan ul{
+    display: flex;
+}
+.FloorPlan ul li{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    flex-grow: 1;
+}
+.FloorPlan span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addButton{
+    background-color: #faf4db;
+    height: 2.5rem;
+    border-radius: 3rem;
+}
+.paidButton{
+    background-color: #a1b4cb;
+    height: 2.5rem;
+    font-weight: bolder;
+    border-radius: 3rem;
+}
+.paidButton button{
+    background-color: #d0e2f8;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3rem;
+}
+.backButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0e2f8;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 3rem;
+}
+
+/* select all items with class name that ends with "Button" */
+[class$="Button"]:hover, button:hover, .secondCol button:hover, .firstCol .toppings li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.toppings{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 3rem;
+}
+
+.firstCol ul{
+    display: flex;
+}
+.firstCol ul li{
+    margin-right: 1rem;
+    padding: .5rem;
+    background-color: #fce795;
+}
+.firstCol .toppings li{
+    margin-left: .5rem;
+    margin-right: 0;
+    margin-top: .5rem;
+    padding: .5rem;
+    background-color: #d0e2f8;
+    border-radius: 3rem;
+}
+.twoCol{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #faf4db;
+}
+.secondCol{
+    padding-top: .5rem;
+}
+.secondCol button{
+    background-color: #d9dbee;
+    padding: .5rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3rem;
+}
+h3{
+    margin-bottom: 0;
+}
+.orders{
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+.ordersSnack{
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.orders, .ordersSnack{
+    background-color: #d0e2f8 ;
+}
+.ordersSoyMilk{
+    background-color: #DBECF4;
+}
+.addOrdersChoices{
+    padding: .5rem;
+    padding-left: 1rem;
+    background-color: #d9dbee;
+}
+.addOrdersChoices li{
+    width:fit-content;
+    padding: .5rem;
+    border-radius: 3rem;
+}
+.orders span, .ordersSoyMilk span{
+    align-self: flex-start;
+}
+.eachItemCost{
+    font-style: normal;
+    font-weight: bold;
+    justify-content: end;
+    align-items: flex-end;
+}
+.paidButton button:hover{
+    border: solid black 3px;
+}
+.bold{
+    font-weight: bolder;
+    font-style: italic;
+    max-width: fit-content;
+}
+.ordersForSnack{
+    display: flex;
+    flex-direction: row;
+    background-color: #d0e2f8;
+}

@@ -1,15 +1,16 @@
 {
-  "homepage": "http://sboioi.github.io/excellent-tofu",
-  "name": "environment",
+  "name": "api-make",
   "version": "1.0.0",
   "description": "___        ______     ____ _                 _  ___           / \\ \\      / / ___|   / ___| | ___  _   _  __| |/ _ \\         / _ \\ \\ /\\ / /\\___ \\  | |   | |/ _ \\| | | |/ _` | (_) |       / ___ \\ V  V /  ___) | | |___| | (_) | |_| | (_| |\\__, |      /_/   \\_\\_/\\_/  |____/   \\____|_|\\___/ \\__,_|\\__,_|  /_/   -----------------------------------------------------------------",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "start": "node app.js",
-    "watch": "webpack --watch",
-    "build": "webpack"
+    "start": "node index.js",
+    "watch": "webpack --watch"
   },
   "keywords": [],
   "author": "",
@@ -35,7 +36,6 @@
     "validator": "^13.7.0"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
     "nodemon": "^2.0.15",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2"

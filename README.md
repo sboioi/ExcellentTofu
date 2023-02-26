@@ -1,5 +1,5 @@
 #  Ordering Web Application for Excellent Tofu
-https://sboioi.github.io/excellent-tofu/
+https://excellent-tofu.azurewebsites.net/
 
 Purpose: 
 Record the ordered items and calculate the total price for a table. 
